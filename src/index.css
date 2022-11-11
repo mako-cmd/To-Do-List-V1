@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-heading
+{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.List
+{
+  position: relative;
+  align-items: center;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.full-page 
+{
+
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: silver;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr 2fr 1fr;
+  overflow-x: auto;
+}
+
+.page-section
+{
+  display: grid;
+  align-self: center;
+  position:static;
+  border: 5px, fixed, black;
+  width: 100%;
+  height: 100%;
+}
+
+.App-Body
+{
+  display: grid;
+  position:static;
+  width: 100%;
+  height: 100%;
+  background-color: ivory;
+  grid-template-rows: 2fr 1fr 5fr 0.8fr;
+}
+
+.Title-Section
+{
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 30px;
+  color: grey;
+  display: grid;
+  position:static;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  grid-template-rows: 0.5fr 1fr 0.1fr;
+  overflow:hidden;
+}
+
+.divider
+{
+  border-left: 1px solid lightsteelblue;
+  height: 60%;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.ListItem-Body
+{
+  
+  align-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 0.5fr 0.2fr 5fr 0.5fr;
+  grid-template-rows: 1fr ;
+  height:15%;
+  width: 90%;
+  margin-left: 1%;
+  margin-left: 4%;
+  margin-right: 5%;
+  border-bottom: 1px solid lightsteelblue;
+  overflow:visible;
+}
+
+.ListItem-Tick
+{
+  height: 50%;
+  width: 100%;
+  padding-right: 0%;
+  margin-right: 0%;
+  position:relative;
+  text-align: center;
+  align-items: center;
+}
+
+.ListItem-Description
+{
+  align-items: center;
+  color: grey;
+  font-size: 80%;
+  text-align: left;
+  font: "roboto" !important;
+}
+
+.Tool-Bar
+{
+  background-color: #DAF7A6;
+}
+
+.Search-Bar
+{
+  margin-left: 15%;
+  width:70%;
+}
+
+.ToolBar-Body
+{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.1fr 8fr 0.1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  height:100%;
+}
+.ToolBar-Item
+{
+  margin-left: 3%;
+  margin-top: 5%;
+  height: 90%;
+  width: 96%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ToolBarFilter-Complete
+{
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.Console
+{
+  padding-left: 2%;
+  text-align: left;
+  height: 50%;
+}
+
+.CrossedOut
+{
+  text-decoration: line-through;
+  text-decoration-color: lightgreen;
+  text-decoration-thickness: 5%;
+  color: lightgreen;
+}
